@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 1,
+        "name": "CCTV ",
+        "serviceName": "Installation",
+        "description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos",
+        "img": "https://i.ibb.co/Xx90Dxv/696515531668263481-128.png"
+    },
+    {
+        "_id": 2,
+        "name": "CCTV",
+        "serviceName": "Configuration",
+        "description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos",
+        "img": "https://i.ibb.co/Xx90Dxv/696515531668263481-128.png"
+    },
+    {
+        "_id": 3,
+        "name": "CCTV",
+        "serviceName": "Maintenance",
+        "description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos",
+        "img": "https://i.ibb.co/Xx90Dxv/696515531668263481-128.png"
+    },
+    {
+        "_id": 4,
+        "name": "CCTV ",
+        "serviceName": "Repair & service",
+        "description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos",
+        "img": "https://i.ibb.co/Xx90Dxv/696515531668263481-128.png"
+    },
+    {
+        "_id": 5,
+        "name": "CCTV",
+        "serviceName": "Monitoring",
+        "description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos",
+        "img": "https://i.ibb.co/Xx90Dxv/696515531668263481-128.png"
+    },
+    {
+        "_id": 6,
+        "name": "CCTV",
+        "serviceName": "Access Control",
+        "description": "Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos",
+        "img": "https://i.ibb.co/Xx90Dxv/696515531668263481-128.png"
+    }
+]

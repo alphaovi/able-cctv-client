@@ -1,0 +1,16 @@
+[
+    {
+        "_id": 1,
+        "name": "ABDUL BAKER",
+        "designation": "WEB DESIGN",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque nulla sunt! At accusamus qui necessitatibus animi! Quis magnam voluptatem maxime, eum modi a autem at id iste enim quod",
+        "img": "https://i.ibb.co/Xb23Jcn/blog-1.jpg"
+    },
+    {
+        "_id": 2,
+        "name": "JALALUDDIN",
+        "designation": "SEO EXPERT",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque nulla sunt! At accusamus qui necessitatibus animi! Quis magnam voluptatem maxime, eum modi a autem at id iste enim quod",
+        "img": "https://i.ibb.co/XZ1CYSZ/blog-2.jpg"
+    }
+]

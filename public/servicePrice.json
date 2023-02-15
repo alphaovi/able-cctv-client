@@ -1,0 +1,43 @@
+[
+    {
+        "_id": "1",
+        "serviceName": "Basic Plan",
+        "price": "49",
+        "services": [
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3"
+        ],
+        "color": "#2878EB"
+    },
+    {
+        "_id": "2",
+        "serviceName": "Standard Plan",
+        "price": "49",
+        "services": [
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3"
+        ],
+        "color": "#2878EB"
+    },
+    {
+        "_id": "3",
+        "serviceName": "Extended Plan",
+        "price": "49",
+        "services": [
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3",
+            "HTML5 & CSS3"
+        ],
+        "color": "#2878EB"
+    }
+]

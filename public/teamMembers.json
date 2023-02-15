@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "1",
+        "name": "Bill Kuddus",
+        "designation" : "Expert in CCTV Maintaince",
+        "img" : "https://i.ibb.co/TBVVtkc/team-1.jpg"
+    },
+    {
+        "_id": "2",
+        "name": "Abdul Kader",
+        "designation" : "Expert in CCTV Configuration",
+        "img" : "https://i.ibb.co/mSvhT1G/team-2.jpg"
+    },
+    {
+        "_id": "3",
+        "name": "Bokul Khan",
+        "designation" : "Expert in CCTV Monitoring",
+        "img" : "https://i.ibb.co/2Y02tZB/team-3.jpg"
+    }    
+]
