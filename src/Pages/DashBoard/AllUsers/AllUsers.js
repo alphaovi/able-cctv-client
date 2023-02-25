@@ -7,7 +7,7 @@ const AllUsers = () => {
     const { data: users, isLoading, refetch } = useQuery({
         queryKey: ["users"],
         queryFn: async () => {
-            const res = await fetch("http://localhost:5001/users");
+            const res = await fetch("https://cctv-service-server.vercel.app/users");
             const data = await res.json();
             return data;
         }
@@ -19,7 +19,7 @@ const AllUsers = () => {
 
 
     const handleMakeAdmin = (id) => {
-        fetch(`http://localhost:5001/users/admin/${id}`, {
+        fetch(`https://cctv-service-server.vercel.app/users/admin/${id}`, {
             method: "PUT",
             headers: {
                 authorization: `bearer ${localStorage.getItem("accessToken")}`

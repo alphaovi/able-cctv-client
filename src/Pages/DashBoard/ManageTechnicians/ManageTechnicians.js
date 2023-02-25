@@ -16,7 +16,7 @@ const ManageTechnicians = () => {
         queryKey: ["technicians"],
         queryFn: async () => {
             try {
-                const res = await fetch("http://localhost:5001/technicians", {
+                const res = await fetch("https://cctv-service-server.vercel.app/technicians", {
                     headers: {
                         authorization: `bearer ${localStorage.getItem("accessToken")}`
                     }
@@ -31,7 +31,7 @@ const ManageTechnicians = () => {
     })
 
     const handleDeleteTechnician = (technician) => {
-        fetch(`http://localhost:5001/technicians/${technician._id}`, {
+        fetch(`https://cctv-service-server.vercel.app/technicians/${technician._id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `bearer ${localStorage.getItem("accessToken")}`

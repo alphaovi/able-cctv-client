@@ -15,7 +15,7 @@ const AddDoctor = () => {
     const { data: specialties, isLoading } = useQuery({
         queryKey: ["specialty"],
         queryFn: async () => {
-            const res = await fetch("http://localhost:5001/serviceSpecialty");
+            const res = await fetch("https://cctv-service-server.vercel.app/serviceSpecialty");
             const data = await res.json();
             return data;
         }
@@ -46,7 +46,7 @@ const AddDoctor = () => {
                 };
 
                 // save technicans information to the database
-                fetch("http://localhost:5001/technician", {
+                fetch("https://cctv-service-server.vercel.app/technician", {
                     method: 'POST',
                     headers: {
                         "content-type": "application/json",

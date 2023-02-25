@@ -78,10 +78,10 @@ const router = createBrowserRouter([
             {
                 path: "/dashboard/payment/:id",
                 element: <Payment></Payment>,
-                loader: ({ params }) => fetch(`http://localhost:5001/servicesBooking/${params.id}`)
+                loader: ({ params }) => fetch(`https://cctv-service-server.vercel.app/servicesBooking/${params.id}`)
             },
         ]
     }
 ])
 
-export default router; 
+export default router;

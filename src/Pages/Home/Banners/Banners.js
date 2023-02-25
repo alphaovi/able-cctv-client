@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import carousel1 from "../../../img/carousel-1.jpg";
 import carousel2 from "../../../img/carousel-2.jpg";
 import carousel3 from "../../../img/carousel-3.jpg";
@@ -19,7 +20,7 @@ const Banners = () => {
                                 <p className="mb-5 text-7xl font-bold ">Safe & Secure Home For Your Family</p>
                                 <div className="flex justify-between">
                                     <button className="btn btn-info  hover:bg-red-400">Get Quote</button>
-                                    <button className="btn btn-error hover:bg-sky-400">Contact Us</button>
+                                    <Link to="/contact"><button className="btn btn-error hover:bg-sky-400">Contact Us</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -43,7 +44,7 @@ const Banners = () => {
                                 <p className="mb-5 text-7xl font-bold ">Safe & Secure Home For Your Family</p>
                                 <div className="flex justify-between">
                                     <button className="btn btn-info  hover:bg-red-400">Get Quote</button>
-                                    <button className="btn btn-error hover:bg-sky-400">Contact Us</button>
+                                    <Link to="/contact"><button className="btn btn-error hover:bg-sky-400">Contact Us</button></Link>
                                 </div>
                             </div>
                         </div>
@@ -66,7 +67,7 @@ const Banners = () => {
                                 <p className="mb-5 text-7xl font-bold ">Safe & Secure Home For Your Family</p>
                                 <div className="flex justify-between">
                                     <button className="btn btn-info  hover:bg-red-400">Get Quote</button>
-                                    <button className="btn btn-error hover:bg-sky-400">Contact Us</button>
+                                    <Link to="/contact"><button className="btn btn-error hover:bg-sky-400">Contact Us</button></Link>
                                 </div>
                             </div>
                         </div>

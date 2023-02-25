@@ -6,6 +6,7 @@ import { AuthContext } from '../../../Context/AuthProvider';
 import { useSignInWithGoogle } from "react-firebase-hooks/auth"
 import app from '../../../firebase/firebase.config';
 import useToken from '../../../hooks/useToken';
+import Loading from '../../Shared/Loading/Loading';
 
 
 const auth = getAuth(app);
@@ -38,7 +39,7 @@ const Login = () => {
     };
 
     if (loading) {
-        return <progress className="progress w-56"></progress>
+        return <Loading></Loading>
     }
 
     const handleLogin = (data) => {
@@ -48,7 +49,10 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 console.log(user);
-                setLoginUserEmail(data.email)
+                setLoginUserEmail(data.email);
+                if (token) {
+                    navigate(from, { replace: true });
+                }
 
             })
             .catch(err => {

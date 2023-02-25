@@ -24,7 +24,7 @@ const BookingModal = ({ selectService, setSelectService, selectedDate, refetch }
             price
         }
 
-        fetch("http://localhost:5001/servicesBooking", {
+        fetch("https://cctv-service-server.vercel.app/servicesBooking", {
             method: "POST",
             headers: {
                 "content-type": "application/json"

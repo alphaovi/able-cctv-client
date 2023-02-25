@@ -12,7 +12,7 @@ const BookServices = ({ selectedDate }) => {
     const { data: services, isLoading, refetch} = useQuery({
         queryKey: ["services"],
         queryFn: async () => {
-            const res = await fetch("http://localhost:5001/services");
+            const res = await fetch("https://cctv-service-server.vercel.app/services");
             const data = await res.json();
             return data;
         }
@@ -26,7 +26,7 @@ const BookServices = ({ selectedDate }) => {
     // }
 
     // useEffect(() => {
-    //     fetch("http://localhost:5001/services")
+    //     fetch("https://cctv-service-server.vercel.app/services")
     //         .then(res => res.json())
     //         .then(result => setServices(result))
     // }, [])

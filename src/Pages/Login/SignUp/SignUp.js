@@ -70,7 +70,7 @@ const SignUp = () => {
 
     const saveUser = (name, email) => {
         const user = { name, email };
-        fetch("http://localhost:5001/users", {
+        fetch("https://cctv-service-server.vercel.app/users", {
             method: 'POST',
             headers: {
                 "content-type": "application/json"
@@ -88,7 +88,7 @@ const SignUp = () => {
     // jwt token set in local storage from backend
 
     // const getUserToken = (email) => {
-    //     fetch(`http://localhost:5001/jwt?email=${email}`)
+    //     fetch(`https://cctv-service-server.vercel.app/jwt?email=${email}`)
     //         .then(res => res.json())
     //         .then(data => {
     //             if (data.accessToken) {
